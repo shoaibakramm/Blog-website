@@ -1,0 +1,25 @@
+<%- include('partials/header'); -%>
+
+<body>
+    <h1>Compose</h1>
+
+    <form action="/compose" method="post">
+
+        <div class="form-outline mb-4">
+            <label class="form-label">Title</label>
+            <input type="text" name="text1" class="form-control">
+        </div>
+
+        <div class="form-outline">
+            <label class="form-label">Post</label>
+            <textarea class="form-control" name="text2" rows="4"></textarea>
+        </div>
+          
+        <button type="submit" name='button' class="meow btn btn-primary">Submit</button>
+
+
+    </form>
+
+</body>
+
+<%- include('partials/footer'); -%>
